@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <title>cv</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="header.css">
-    <link rel="stylesheet" href="main.css">
-    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/footer.css">
     <link rel="icon" href="./assets/favicon.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -26,22 +26,20 @@
 </header>
 <main class="main">
     <div class="container main-container">
-
-
-
         <div class="left-container">
             <section class="section avatar-section" id="avatar">
-                <img class="avatar" src="https://cs9.pikabu.ru/post_img/big/2017/10/24/10/1508863706138185955.png" alt="avatar">
+<!--                <img class="avatar" src="https://cs9.pikabu.ru/post_img/big/2017/10/24/10/1508863706138185955.png"-->
+<!--                     alt="avatar">-->
             </section>
             <section class="section" id="contacts">
-                <h2 class="section-title">
+                <h2 class="section-title contacts">
                     Contacts
                 </h2>
-                <ul>
-                    <li>telephone</li>
-                    <li>mail</li>
-                    <li>linkedin</li>
-                    <li>github</li>
+                <ul class="contact-list">
+                    <li class="contact-item"><img src="assets/email.png" alt="email"><a href="mailto:alexgrist133@gmail.com" target="_blank">alexgrist133@gmail.com</a></li>
+                    <li class="contact-item"><img src="assets/linkedin.png" alt="linkedin"><a href="https://www.linkedin.com/in/%D0%B4%D0%B0%D0%BD%D0%B8%D0%B8%D0%BB-%D1%81%D1%82%D0%B0%D1%81%D1%83%D0%BB%D0%B5%D0%B2%D0%B8%D1%87-378513192/" target="_blank">LinkedIn</a></li>
+                    <li class="contact-item"><img src="assets/github.png" alt="github"><a href="https://github.com/alexgrist14" target="_blank">GitHub</a></li>
+                    <li class="contact-item"><img src="assets/telegram.png" alt="github"><a href="https://t.me/alexgrist" target="_blank">Telegram</a> </li>
                 </ul>
             </section>
             <section class="section" id="education">
@@ -65,20 +63,47 @@
         </div>
 
         <div class="right-container">
-            <section class="section" id="profile">
-                <h1 class="section-title">Profile</h1>
+            <section class="section profile-title" id="profile">
+                <h1 class="section-title">Daniil Stasulevich</h1>
+                <h3>Junior Front-End Developer</h3>
             </section>
-            <section class="section" id="summary">
+            <section class="section summary" id="summary">
                 <h2 class="section-title">summary</h2>
+                <p>
+                    I am a Front-end developer, programming since 2019.
+                    I like JavaScript, React, HTML, CSS.
+                    Having programming experience in C#, Unity.
+                    Also i can construct a simple databases and work with them.
+                    Now i would like to became full-stack developer.
+                </p>
             </section>
-            <section class="section" id="code">
+            <section class="section code-section" id="code">
                 <h2 class="section-title">code</h2>
+                <pre class="code-section">
+                <code>
+                    function compareDataColors(data, point, color) {
+                        if (data[point + 0] === color.r
+                        && data[point + 1] === color.g
+                        && data[point + 2] === color.b) return true;
+                        return false;
+                    }
+                </code>
+                </pre>
             </section>
             <section class="section" id="courses">
                 <h2 class="section-title">Courses</h2>
+                <ul>
+                    <li>RSSchool - JavaScript/Front-end 2019</li>
+                    <li>RSSchool - JavaScript/Front-end 2022</li>
+                </ul>
             </section>
             <section class="section" id="projects">
                 <h2 class="section-title">Projects</h2>
+                <ul>
+                    <li>https://alexgrist14.github.io/Responsive_Website/</li>
+                    <li>https://kozjar.github.io/Piskel-clone/</li>
+                    <li>https://alexgrist14.github.io/NeutronMail/</li>
+                </ul>
             </section>
         </div>
 
