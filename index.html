@@ -4,14 +4,17 @@
     <meta charset="UTF-8">
     <title>cv</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="footer.css">
     <link rel="icon" href="./assets/favicon.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400&display=swap" rel="stylesheet">
 </head>
 <body>
 <header class="header">
-    <div class="container">
+    <div class="container header-container">
         <nav class="nav">
             <ul class="nav-list">
                 <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
@@ -23,33 +26,62 @@
 </header>
 <main class="main">
     <div class="container main-container">
-        <section class="section" id="profile">
-            <h1 class="section-title"></h1>
-        </section>
-        <section class="section" id="contacts">
-            <h2 class="section-title"></h2>
-        </section>
-        <section class="section" id="summary">
-            <h2 class="section-title"></h2>
-        </section>
-        <section class="section" id="skills">
-            <h2 class="section-title"></h2>
-        </section>
-        <section class="section" id="code">
-            <h2 class="section-title"></h2>
-        </section>
-        <section class="section" id="courses">
-            <h2 class="section-title"></h2>
-        </section>
-        <section class="section" id="projects">
-            <h2 class="section-title"></h2>
-        </section>
-        <section class="section" id="education">
-            <h2 class="section-title"></h2>
-        </section>
-        <section class="section" id="languages">
-            <h2 class="section-title"></h2>
-        </section>
+
+
+
+        <div class="left-container">
+            <section class="section avatar-section" id="avatar">
+                <img class="avatar" src="https://cs9.pikabu.ru/post_img/big/2017/10/24/10/1508863706138185955.png" alt="avatar">
+            </section>
+            <section class="section" id="contacts">
+                <h2 class="section-title">
+                    Contacts
+                </h2>
+                <ul>
+                    <li>telephone</li>
+                    <li>mail</li>
+                    <li>linkedin</li>
+                    <li>github</li>
+                </ul>
+            </section>
+            <section class="section" id="education">
+                <h2 class="section-title">Education</h2>
+                <p class="education">College of Business and Law</p>
+            </section>
+            <section class="section" id="skills">
+                <h2 class="section-title">Skills</h2>
+                <ul class="skills">
+                    <li>Web-development: HTML5, CSS3, JavaScript, Typescript</li>
+                    <li>Frameworks and libraries: React.JS, MaterialUI</li>
+                    <li>Desktop-development: C#,C++</li>
+                    <li>Database: MicrosoftSQL</li>
+                    <li>Version control: GIT, Github</li>
+                </ul>
+            </section>
+            <section class="section" id="languages">
+                <h2 class="section-title">Languages</h2>
+                <p>English - A2</p>
+            </section>
+        </div>
+
+        <div class="right-container">
+            <section class="section" id="profile">
+                <h1 class="section-title">Profile</h1>
+            </section>
+            <section class="section" id="summary">
+                <h2 class="section-title">summary</h2>
+            </section>
+            <section class="section" id="code">
+                <h2 class="section-title">code</h2>
+            </section>
+            <section class="section" id="courses">
+                <h2 class="section-title">Courses</h2>
+            </section>
+            <section class="section" id="projects">
+                <h2 class="section-title">Projects</h2>
+            </section>
+        </div>
+
     </div>
 </main>
 <footer class="footer">
