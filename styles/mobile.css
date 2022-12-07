@@ -1,0 +1,62 @@
+@media screen and (max-width: 810px) {
+    .main-container {
+        flex-direction: column;
+    }
+
+    .avatar-section {
+        align-self: unset;
+        margin: 0;
+    }
+    .nav{
+        width: 100vw;
+        border-radius: 0;
+    }
+    .nav-list{
+        justify-content: center;
+    }
+    .left-container{
+        width: 100vw;
+        background-color: #7d1ca6;
+        background-image: none;
+    }
+    .avatar-section{
+        border-radius: 30px 30px 30px 30px;
+    }
+    .contact-list{
+        width: 200px;
+    }
+    .left-container{
+        text-align: center;
+    }
+    .left-content{
+        margin: 0;
+    }
+    .left-container .section-title{
+        width: 100vw;
+        border-radius: 0;
+
+    }
+    .right-container .section-title{
+        width: 100vw;
+        border-radius: 0;
+    }
+    .right-content{
+        margin: 0;
+        padding: 0;
+    }
+    .right-container{
+        text-align: center;
+    }
+    .rss-course{
+        margin: 0;
+    }
+    .github{
+        margin: 0;
+    }
+    .date-of-production{
+        margin: 0;
+    }
+    .footer-container{
+        justify-content: space-between;
+    }
+}

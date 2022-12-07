@@ -1,5 +1,6 @@
 .footer-container{
    display: flex;
+    justify-content: space-between;
     color: white;
     font-size: 20px;
     align-items: center;
@@ -28,6 +29,6 @@
     width: 100px;
     height: 100px;
 }
-.rss-course{
-    margin-left: 1000px;
-}
+/*.rss-course{*/
+/*    margin-left: 1000px;*/
+/*}*/

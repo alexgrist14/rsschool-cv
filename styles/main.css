@@ -146,13 +146,3 @@
 .right-content{
     margin-left: 170px;
 }
-@media screen and (max-width: 640px) {
-    .main-container {
-        flex-direction: column;
-    }
-
-    .avatar-section {
-        align-self: unset;
-        margin: 0;
-    }
-}
