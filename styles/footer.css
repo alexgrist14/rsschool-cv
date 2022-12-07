@@ -1,0 +1,33 @@
+.footer-container{
+   display: flex;
+    color: white;
+    font-size: 20px;
+    align-items: center;
+    height: 105px;
+    margin: 0;
+    padding: 0;
+
+    background-color: #5C00D7;
+}
+.footer a{
+    color: white;
+}
+.github{
+    margin-left: 30px;
+}
+.github:hover{
+    color: #766def;
+}
+.date-of-production{
+    margin: 0;
+}
+.date-of-production{
+    margin-left: 50px;
+}
+.rss-course img{
+    width: 100px;
+    height: 100px;
+}
+.rss-course{
+    margin-left: 1000px;
+}
