@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+    list-style: none;
+    /*border: 1px solid #3a14ad;*/
+}
+
+a{
+    color: #e0a8ea;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 0;
+}
+
+
+
+/*@media (max-width: 768px) {*/
+/*    .section {*/
+/*        width: 100%;*/
+/*    }*/
+/*}*/
