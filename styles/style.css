@@ -1,7 +1,6 @@
 * {
     box-sizing: border-box;
     list-style: none;
-    /*border: 1px solid #3a14ad;*/
 }
 
 a{
@@ -21,22 +20,17 @@ body {
     font-size: 18px;
     margin: 0;
     padding: 0;
-    background-color: #ea9167;
+    background-image: url("../assets/background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .body{
     max-width: 1440px;
     background-color: white;
+
 
 }
 
 .container {
     margin: 0;
 }
-
-
-
-/*@media (max-width: 768px) {*/
-/*    .section {*/
-/*        width: 100%;*/
-/*    }*/
-/*}*/
